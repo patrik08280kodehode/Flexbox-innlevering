@@ -1,0 +1,86 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: 550px;
+}
+
+.box1 {
+  width: 200px;
+  height: 400px;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+  padding: 30px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.box2 {
+  width: 200px;
+  height: 400px;
+  background-color: hsl(184, 100%, 22%);
+  padding: 30px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.box3 {
+  width: 200px;
+  height: 400px;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+  padding: 30px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.button-alignment {
+  margin-top: auto;
+  padding-bottom: 5px;
+}
+
+button {
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  width: 150px;
+  height: 40px;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+
+#button1 {
+  color: hsl(31, 77%, 52%);
+}
+
+#button2 {
+  color: hsl(184, 100%, 22%);
+}
+
+#button3 {
+  color: hsl(179, 100%, 13%);
+}
+
+img {
+  width: 70px;
+  padding-top: 10px;
+}
